@@ -10,6 +10,9 @@ h2{
     font-size: 35px;
     color: rgb(56, 54, 54);
 }
+h3{
+    color: rgb(56, 54, 54);
+}
 /*colour define */
 .org-clr {
     color: orange;
@@ -74,6 +77,7 @@ h2{
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
+    color: rgb(95, 95, 95);
 }
 .r-list{
     justify-content: center;
@@ -96,7 +100,11 @@ h2{
     background-image: cover;
 }
 .r-item p{
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color: rgb(95, 95, 95);
+    font-size: 14px;
 }
 .coundown{
     justify-content: center;
@@ -135,4 +143,8 @@ footer{
     color: white;
     background-color: black;
     text-align: center;
+}
+footer p{
+    font-size: 14px;
+    color: rgba(240, 255, 240, 0.521);
 }
