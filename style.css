@@ -1,0 +1,90 @@
+body{
+    font: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*font size predefine */
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+/*colour define */
+.org-clr {
+    color: orange;
+}
+/*Common*/
+.d-flex{
+    display: flex;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.defult-btn{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 16px 35px;
+    margin-top: 200px;
+    background-image: linear-gradient(to right, orange, tomato);
+    border-radius: 25px;
+    text-align: justify;
+}
+/*genral CSS*/
+.half-width{
+   width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+
+.descrip{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.image-shape{
+    height: 500px;
+    width: 500px;
+    padding-left: 80px;
+}
+.para{
+    color:black;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.bckDesign{
+    background-image: url(img/backFrame3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.r-heading{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.r-list{
+    justify-content: center;
+}
+.r-item{
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+    border: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+    
+}
+.r-item img{
+    padding: 5px;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    background-image: cover;
+}
+.r-item p{
+    text-align: center;
+}
