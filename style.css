@@ -4,10 +4,11 @@ body{
 }
 /*font size predefine */
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 h2{
     font-size: 35px;
+    color: rgb(56, 54, 54);
 }
 /*colour define */
 .org-clr {
@@ -32,9 +33,14 @@ h2{
     font-size: 20px;
     padding: 16px 35px;
     margin-top: 200px;
-    background-image: linear-gradient(to right, orange, tomato);
+    background-image: linear-gradient(to right, rgba(183, 0, 255, 0.952), rgb(255, 99, 71));
     border-radius: 25px;
     text-align: justify;
+}
+.wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 80px;
 }
 /*genral CSS*/
 .half-width{
@@ -45,21 +51,22 @@ h2{
 }
 
 .descrip{
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 .image-shape{
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: auto;
     padding-left: 80px;
 }
 .para{
-    color:black;
+    color: rgb(95, 95, 95);
     font-weight: 100;
     margin-bottom: 50px;
+    text-align: justify;
 }
 .bckDesign{
-    background-image: url(img/backFrame3.jpg);
+    background-image: url("./img/backFrame3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,7 +112,7 @@ h2{
     color: gray;
 }
 .location{
-    background-image: url(img/Frame\ 57.jpg);
+    background-image: url("./img/Frame\ 57.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
